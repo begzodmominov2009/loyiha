@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFamilyShop - Oila uchun Magazin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">MyFamilyShop</div>
+        <nav>
+            <ul>
+                <li><a href="#">Bosh sahifa</a></li>
+                <li><a href="#">Mahsulotlar</a></li>
+                <li><a href="#">Biz haqimizda</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Oilangiz uchun eng yaxshi mahsulotlar</h1>
+            <p>Sifatli va ishonchli mahsulotlarni tanlang va tezda xarid qiling.</p>
+            <a href="#products" class="btn">Hozir Xarid Qiliw</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2>Mahsulotlarimiz</h2>
+        <div class="filter-buttons">
+            <button class="active" onclick="filterProducts('all')">Barchasi</button>
+            <button onclick="filterProducts('toys')">O‘yinchoqlar</button>
+            <button onclick="filterProducts('clothes')">Kiyim</button>
+            <button onclick="filterProducts('accessories')">Aksessuarlar</button>
+              <button onclick="filterProducts('phone')">Telefonlar</button>
+               <button onclick="filterProducts('keetles')">Choynaklari</button>
+        </div>
+        </div>
+        <div class="product-list">
+            <div class="product toys">
+                <img src="https://api.cabinet.smart-market.uz/uploads/images/ff808181665a953e12ce3af8" alt="O'yinchoq 1">
+                <h3>O‘yinchoq to‘plami</h3>
+                <p>120 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product toys">
+                <img src="https://cdn.globalso.com/amybentontoy/zcxxzcxzc1.jpg" alt="O'yinchoq 1">
+                <h3>O‘yinchoq to‘plami</h3>
+                <p>120 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+
+            <div class="product clothes">
+                <img src="https://avatars.mds.yandex.net/get-mpic/4497593/2a00000191bd3f24572a8fbb5395d54c778c/orig" alt="Kiyim 1">
+                <h3>Bolalar futbolkasi</h3>
+                <p>85 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product clothes">
+                <img src="https://shoptextile.uz/image/cache/catalog/image/cache/catalog/product/ST0167/ST0167-1000x1000.webp" alt="Kiyim 1">
+                <h3>Bolalar futbolkasi</h3>
+                <p>85 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product clothes">
+                <img src="https://images.uzum.uz/cjb3sl4vutv1p29l0d1g/original.jpg" alt="Kiyim 1">
+                <h3>Bolalar futbolkasi</h3>
+                <p>85 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product accessories">
+                <img src="https://images.uzum.uz/d666kedsp2tk1m7ht1n0/original.jpg" alt="Aksessuar 1">
+                <h3>Bolalar soati</h3>
+                <p>250 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product accessories">
+                <img src="https://images.uzum.uz/d666kjjvv0v6ikl3ic5g/original.jpg" alt="Aksessuar 1">
+                <h3>Bolalar soati</h3>
+                <p>250 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product accessories">
+                <img src="https://images.uzum.uz/d5t7es6dd7ea4g26sgh0/original.jpg" alt="Aksessuar 1">
+                <h3>Bolalar soati</h3>
+                <p>250 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product toys">
+                <img src="https://images.uzum.uz/cmp1t1rifoubkc6pa3og/original.jpg" alt="O'yinchoq 2">
+                <h3>Yumshoq hayvonchalar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product toys">
+                <img src="https://olcha.uz/image/700x700/products/AJi2BIDfcD5VGEyQkqq5YcKKoDQuaPbApST2tA1xuSqel2XmR5CAVmTN1qDA.jpg" alt="O'yinchoq 2">
+                <h3>Yumshoq hayvonchalar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product toys">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Handmade_teddy_bear.jpg" alt="O'yinchoq 2">
+                <h3>Yumshoq hayvonchalar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product toys">
+                <img src="https://olcha.uz/image/700x700/products/Oi2tN6DR0zvWw0pE6RASst9ZSRKOoJaADCPbjd2vZHXwWkgHinDgqW282qK2.jpg  " alt="O'yinchoq 2">
+                <h3>Yumshoq hayvonchalar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+             <div class="product phone">
+                <img src="https://images.uzum.uz/d22ussr4eu2ublqhe9e0/original.jpg " alt="O'yinchoq 2">
+                <h3>Bolalar Telefonlar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product phone">
+                <img src="https://cdn.asaxiy.uz/asaxiy-content/product/items/mobile/d1c38a09acc34845c6be3a127a5aacaf2023091110115853576x4dyAcBjl4.jpg.webp " alt="O'yinchoq 2">
+                <h3>Bolalar Telefonlar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product phone">
+                <img src="https://images.uzum.uz/d22ussr4eu2ublqhe9eg/original.jpg " alt="O'yinchoq 2">
+                <h3>Bolalar Telefonlar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product phone">
+                <img src="https://minapi.beemarket.uz/prod-media/productImages/1728281682ZerzyOIIdFYs.webp " alt="O'yinchoq 2">
+                <h3>Bolalar Telefonlar</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product keetles">
+                <img src="https://images.uzum.uz/d00fb36i4n37npap1aog/original.jpg" alt="O'yinchoq 2">
+                <h3>Bolalar choynaklari</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product keetles">
+                <img src="https://images.uzum.uz/d176d3on274lpu39guh0/original.jpg" alt="O'yinchoq 2">
+                <h3>Bolalar choynaklari</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product keetles">
+                <img src="https://images.uzum.uz/cudpt15ht56ksubgiv40/original.jpg" alt="O'yinchoq 2">
+                <h3>Bolalar choynaklari</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+            <div class="product keetles">
+                <img src="https://images.uzum.uz/d49gto5sp2tr82i3qid0/original.jpg" alt="O'yinchoq 2">
+                <h3>Bolalar choynaklari</h3>
+                <p>150 000 so'm</p>
+                <button>Savatga qo'shish</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MyFamilyShop. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script>
+        function filterProducts(category) {
+            const products = document.querySelectorAll('.product');
+            const buttons = document.querySelectorAll('.filter-buttons button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            event.target.classList.add('active');
+
+            products.forEach(product => {
+                if (category === 'all' || product.classList.contains(category)) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
